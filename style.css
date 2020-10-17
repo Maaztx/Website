@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  background-image: url(memphis-mini-dark.png);
+  background-repeat: repeat;
+}
+
+header{
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+}
+
+.name{
+  margin-left: 1%;
+}
+
+main{
+  background-color: white;
+  width: 50%;
+  margin: auto;
+}
+
+.body-container{
+  display: flex;
+  align-items: center;
+  margin: 1%;
+}
+
+.me{
+  width: 40%;
+  height: auto;
+}
+
+.me img{
+  display: block;
+  margin: auto;
+  width: 95%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.bio{
+  text-indent: 1em;
+  padding: 3%;
+  width: 60%;
+}
+
+.work-container{
+  margin: 3%;
+}
+
+footer{
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  align-items: center;
+}
+
+footer .footer-links{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
